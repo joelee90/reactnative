@@ -14,7 +14,7 @@ const SearchScreen = () => {
         params: {
           limit: 50,
           term,
-          location: 'san jose',
+          location: 'seoul',
         },
       });
       setResults(response.data.businesses);
